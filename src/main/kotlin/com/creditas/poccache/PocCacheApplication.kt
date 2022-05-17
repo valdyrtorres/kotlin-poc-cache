@@ -29,7 +29,7 @@ fun main(args: Array<String>) {
 	runApplication<PocCacheApplication>(*args)
 }
 
-// Cache manager Caffeine
+// Cache manager Caffeine gerenciador a parte
 @Configuration
 class AppConfig {
 	@Bean
